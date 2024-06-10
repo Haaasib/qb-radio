@@ -6,14 +6,11 @@
 # Installations
 
 ```
-
 1 . Delete the old qb-radio
 2 . Drag And Drop qb-radio you downloaded from github 
-
-
 ```
 # Images
-![Alt text](http://full/path/to/img.jpg "Preview")
+![Alt text](https://github.com/Haaasib/qb-radio/blob/main/html/img/Screenshot_1.png "Preview")
 # DEPENDENCIES
 * [QBCORE](https://github.com/qbcore-framework/)
 
