@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
+
+body {
+    position: relative;
+    font-family: sans-serif;
+    overflow: hidden;
+    top: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display:none;
+}
+
+.radio-container {
+  position: absolute;
+  bottom: -56vh;
+  right: 15vh;
+}
+
+
+.radio {
+  width: 43vh;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+#submit {
+  position: absolute;
+  width: 4.5vh;
+  height: 4vh;
+  bottom: 10vh;
+  left: 8vh;
+  border-radius: 5px;
+  /* background: red; */
+  transition: all 0.1s linear;
+}
+
+#submit:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+#disconnect {
+  position: absolute;
+  width: 3.5vh;
+  height: 3.0vh;
+  bottom: 10vh;
+  right: 2.0vh;
+  border-radius: 5px;
+  transition: all 0.1s linear;
+}
+
+#disconnect:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+#volumeUp {
+  position: absolute;
+  width: 3.8vh;
+  height: 5.699999999999999vh;
+  bottom: 11.5vh;
+  right: 3.9000000000000004vh;
+  border-radius: 5px;
+  transition: all 0.1s linear;
+}
+
+#volumeUp:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+#volumeDown {
+    /* position: absolute; */
+    /* width: 3.8vh; */
+    /* height: 3.6vh; */
+    /* bottom: 18.5vh; */
+    /* right: 0.9vh; */
+    /* border-radius: 5px; */
+    position: absolute;
+    width: 3.8vh;
+    height: 5.699999999999999vh;
+    bottom: 3.5vh;
+    right: 3.9000000000000004vh;
+    border-radius: 5px;
+    /* transition: all 0.1s linear; */
+    transition: all 0.1s linear;
+}
+
+#volumeDown:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+#increaseradiochannel {
+  position: absolute;
+  width: 3.8vh;
+  height: 3.8vh;
+  bottom: 29.5vh;
+  left: 0.8vh;
+  border-radius: 5px;
+  transition: all 0.1s linear;
+}
+
+#increaseradiochannel:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+#decreaseradiochannel {
+  position: absolute;
+  width: 3.8vh;
+  height: 3.6vh;
+  bottom: 18.5vh;
+  left: 0.8vh;
+  border-radius: 5px;
+  transition: all 0.1s linear;
+}
+
+#decreaseradiochannel:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+#poweredOff {
+  position: absolute;
+  width: 3.3vh;
+  height: 3.9vh;
+  bottom: 19vh;
+  left: 3vh;
+  border-radius: 5px;
+  transition: all 0.1s linear;
+}
+
+#poweredOff:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.onoff button {
+  padding: 40px 55px;
+  opacity: .0;
+}
+
+.channel {
+  position: absolute;
+  bottom: 21vh;
+  left: 16.3vh;
+  background: none;
+}
+
+::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.channel span {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.p1 {
+  text-align: center;
+  border: none;
+  font-size: 28px;
+  background: none;
+  outline: none;
+  font-family: 'Fira Code', monospace;
+  position: absolute;
+  bottom: 21vh;
+  left: 12.9vh;
+  background: none;
+}
+.channel input {
+  text-align: center;
+  border: none;
+  font-size: 25px;
+  background: none;
+  outline: none;
+  font-family: 'Fira Code', monospace;
+  width: 5vw;
+}
+
+::-webkit-inner-spin-button {
+  display: none;
+}
